@@ -22,7 +22,7 @@ const SearchResult = ({ bookState, handleBookSaved }) => {
                                 <Col xs={10} md={10}>
                                     <Card.Title className="pt-2">{book.title}</Card.Title>
                                     <Card.Text>
-                                        <small> writen by: {book.author} </small>
+                                        <small> writen by: {book.authors} </small>
                                     </Card.Text>
 
                                 </Col>
